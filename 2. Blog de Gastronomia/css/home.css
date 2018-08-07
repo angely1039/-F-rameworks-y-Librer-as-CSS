@@ -1,0 +1,43 @@
+body{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem 1rem;
+}
+
+#container{
+  background-color: rgb(255, 204, 204);
+}
+
+#menu{
+  background-color: rgba(255, 153, 153);
+}
+
+#imgiz{
+  max-width: 80px;
+}
+
+#comentario{
+  margin-top: 3%;
+}
+
+img{
+  max-height: 300px;
+}
+
+div.secondary.callout{
+  min-height: 350px;
+}
+
+.busqueda {
+display: flex;
+flex-direction: row;
+}
+
+.callout{
+  background-color: rgb(255, 179, 179);
+}
+
+a:hover{
+  color: gray;
+}

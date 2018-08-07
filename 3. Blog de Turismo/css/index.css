@@ -1,0 +1,198 @@
+.barra-superior{
+  min-height: 4rem;
+}
+
+body{
+background-image: url('../img/fondo.jpg');
+background-size: cover;
+background-attachment: fixed;
+background-position: center top;
+}
+
+div[class="columna"]{
+  min-height: 50rem;
+  overflow: scroll;
+}
+div[class="bloque"]{
+  height: 25rem;
+  overflow: scroll;
+}
+
+.contenedor-write-publicacion{
+  min-height: 7rem;
+}
+.contenedor-publicacion{
+  min-height: 17rem;
+}
+.contenedor-logo{
+  width: 0.5%;
+}
+
+.nav-mobile{
+  position: absolute;
+}
+
+li {
+   display:inline;
+   padding-left:1px;
+   padding-right:1px;
+}
+
+ul{
+  clear: both;
+  float: left;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 3em;
+  display: block;
+  text-decoration: none;
+  border-top: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+}
+
+.galeria{
+  border: 50px;
+}
+
+#profile-card .card-profile-image {
+    width: 30%;
+    position: absolute;
+    top: 110px;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  #perfil {
+      width: 35%;
+      margin-left: auto;
+      left: auto;
+      right: auto;
+  }
+
+  #perfil {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+    min-height: 1px;
+}
+
+.db-2-main-1 {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+.section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card.horizontal .card-image {
+    max-width: 70%;
+}
+
+.card.horizontal2 .card-image2 {
+    max-width: 100%;
+}
+
+.card .card-image {
+    position: relative;
+}
+
+.card.horizontal .card-stacked {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+}
+
+h5 {
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.card .card-content {
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+
+}
+
+.card.horizontal .card-stacked .card-content {
+    flex-grow: 1;
+}
+
+.card-image img {
+    display: block;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.card-image2 img {
+    display: block;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    padding-top: 8%;
+}
+
+.card {
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+}
+
+.barra-superior .row{
+  margin-bottom: 0;
+}
+.contenedor-botones{
+  color: inherit;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .columna-grupos{
+    padding: 0;
+  }
+  .principal{
+  display: flex;
+  flex-direction: column;
+}
+
+.uno{
+  order: 1;
+}
+.dos{
+  order: 3;
+}
+.tres{
+  order: 2;
+}
+
+.db-2-main-2{
+
+}
+}
